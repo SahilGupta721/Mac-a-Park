@@ -8,7 +8,7 @@ app = FastAPI()
 # CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://mac-a-thon-2026-virid.vercel.app"],  
+    allow_origins=["https://mac-a-thon-2026-virid.vercel.app","https://mac-a-park.vercel.app"],  
     allow_credentials=True,
     allow_methods=["*"],  # Allows POST, PUT, DELETE, GET
     allow_headers=["*"],
